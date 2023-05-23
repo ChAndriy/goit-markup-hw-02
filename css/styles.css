@@ -4,7 +4,7 @@ body {
   background-color: #ffffff;
 }
 root: {
-  color: #2e2f42;
+  --brandcolor: #2e2f42;
 }
 a {
   text-decoration: none;
@@ -44,9 +44,9 @@ footer {
   color: #2e2f42;
 }
 
-.contact__contacts:hover {
-  color: red;
+.contact-contacts:hover {
+  color: #404bbf;
 }
-.contact__contacts:focus {
-  color: red;
+.contact-contacts:focus {
+  color: #404bbf;
 }
