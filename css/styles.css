@@ -5,7 +5,41 @@ body {
 a {
   text-decoration: none;
   color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
 }
+.portfolio {
+  color: #2e2f42;
+}
+.sections {
+  color: WHITE;
+  background-color: #404bbf;
+}
+.sections__button {
+  color: #4d5ae5;
+  background-color: #e7e9fc;
+  cursor: pointer;
+}
+h3 {
+  font-size: 20px;
+  line-height: 1.5;
+  color: #2e2f42;
+}
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #434455;
+}
+.footer {
+  color: #f4f4fd;
+}
+footer {
+  background-color: #2e2f42;
+}
+.contact__contacts {
+  color: #2e2f42;
+}
+
 .contact__contacts:hover {
   color: red;
 }
