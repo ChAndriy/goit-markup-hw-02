@@ -5,6 +5,7 @@
 body {
   font-family: "Roboto", sans-serif;
   color:#434455;
+  background-color: #FFFFFF;
 }
 
 .link 
@@ -57,15 +58,16 @@ body {
   color: #404bbf;
 }
 
-.address-contacts:hover {
+.link-contacts:hover {
   color: #404bbf;
 }
 
-.address-contacts:focus {
+.link-contacts:focus {
   color: #404bbf;
 }
 
 .list-button {
+  font-family: "Roboto", sans-serif ;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -136,7 +138,7 @@ letter-spacing: 0.02em;
 color: #F4F4FD;
 }
 .section-title{
-  font-weight: 700;
+font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
 text-align: center;
@@ -145,8 +147,12 @@ text-transform: capitalize;
 color: #2E2F42;
 list-style: none;
 }
+
+.blockone{
+background: #2E2F42;
+}
 .blockone-title{
-  background: #2E2F42;
+  
   font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
@@ -155,12 +161,13 @@ letter-spacing: 0.02em;
 color: #FFFFFF;
 }
 .blockone-title-btn{
+  font-family: "Roboto", sans-serif ;
 font-weight: 500;
 font-size: 16px;
 line-height:1.5;
 letter-spacing: 0.04em;
 color: #FFFFFF;
-background-color: #404BBF;
+background-color: #4D5AE5;
 cursor: pointer;
 }
 .blockone-title-btn:hover{
