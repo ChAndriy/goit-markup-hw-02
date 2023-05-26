@@ -1,9 +1,9 @@
 :root{
-color: #2E2F42;
+--brand-color: #434455;
 }
 body{
 font-family: "Roboto", sans-serif,;
-color: #434455 ;
+color: var(--brand-color);
 background: #FFFFFF;
 }
 .list{
@@ -64,6 +64,7 @@ color: #404BBF;}
 
 
 .address {
+  font-style: normal 
 }
 .address-list {
 }
@@ -96,15 +97,15 @@ color: #404BBF;}
   
   
 }
-/* .section-button-all {
-font-family: "Roboto", sans-serif 
+.section-button-all {
+font-family: "Roboto", sans-serif ;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
 color: #FFFFFF;
 cursor: pointer;
-} */
+}
 .section-button-all:hover{
 color: #FFFFFF;
 background: #404BBF;
