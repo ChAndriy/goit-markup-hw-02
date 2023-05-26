@@ -14,13 +14,13 @@ list-style: none;
 }
 
 .header {
-  font-family: 'Raleway' sans-serif;
+  font-family: 'Raleway', sans-serif;
 
 }
 .header-navigation {
 }
 .header-navigation-link {
-font-family: 'Raleway' sans-serif;
+font-family: 'Raleway', sans-serif;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
@@ -155,7 +155,7 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 .footer {
-  font-family: 'Raleway' sans-serif;
+  font-family: 'Raleway', sans-serif;
   background: #2E2F42;
 }
 
@@ -167,7 +167,7 @@ color: #F4F4FD;
 }
 
 .header-navigation-footer {
-font-family: 'Raleway' sans-serif;
+font-family: 'Raleway', sans-serif;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
