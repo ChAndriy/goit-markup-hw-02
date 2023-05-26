@@ -1,9 +1,9 @@
 :root{
-
+color: #2E2F42;
 }
 body{
-font-family: Roboto;
-color:#2E2F42;
+font-family: "Roboto", sans-serif,;
+color: #434455 ;
 background: #FFFFFF;
 }
 .list{
@@ -18,21 +18,23 @@ list-style: none;
 .header-navigation {
 }
 .header-navigation-link {
-font-family: 'Raleway';
+font-family: 'Raleway' sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4D5AE5;
+}
+  
+.header-navigation-decor{
 font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #2E2F42
-}
-.header-navigation-decor{
-  font-weight: 800;
-font-size: 18px;
-line-height: 1.17;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #4D5AE5;
+
 
 }
 
@@ -91,24 +93,45 @@ color: #404BBF;}
 
 
 .section-button{
-  background: #404BBF;
+  
+  
 }
-.section-button-all {
+/* .section-button-all {
+font-family: "Roboto", sans-serif 
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
 color: #FFFFFF;
+cursor: pointer;
+} */
+.section-button-all:hover{
+color: #FFFFFF;
+background: #404BBF;
+}
+.section-button-all:focus{
+ color: #FFFFFF;
+ background: #404BBF;
 }
 .section-btn {
+  font-family: "Roboto", sans-serif 
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
 color: #4D5AE5;
 background: #F4F4FD;
-
+cursor: pointer;
 }
+.section-btn:hover{
+color: #FFFFFF;
+background: #404BBF;
+}
+.section-btn:focus{
+ color: #FFFFFF;
+ background: #404BBF;
+}
+
 .section-imeg {
 }
 .section-imeg-item {
@@ -138,8 +161,17 @@ line-height:1.5;
 letter-spacing: 0.02em;
 color: #F4F4FD;
 }
+
 .header-navigation-footer {
-font-family: 'Raleway';
+font-family: 'Raleway' sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4D5AE5;;
+}
+.footer-navigation-decor {
 font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
@@ -147,7 +179,6 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #F4F4FD;
 }
-
 
 /* second page */
 .blockone {
@@ -158,16 +189,19 @@ color: #F4F4FD;
   font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
+text-align: center;
 letter-spacing: 0.02em;
 color: #FFFFFF;
 }
 .blockone-title-btn {
+   font-family: "Roboto", sans-serif;
   background: #4D5AE5;
   font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
 color: #FFFFFF;
+cursor: pointer;
 }
 .blockone-title-btn:hover{
 background: #404BBF;
@@ -199,6 +233,7 @@ color: #434455
   font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
+text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 color: #2E2F42;
@@ -216,6 +251,7 @@ font-size: 36px;
 line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
+text-align: center;
 color: #2E2F42;
 }
 .blockfour-title-list{
