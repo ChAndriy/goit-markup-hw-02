@@ -14,8 +14,7 @@ list-style: none;
 }
 
 .header {
-  font-family: 'Raleway', sans-serif;
-
+ 
 }
 .header-navigation {
 }
@@ -157,7 +156,7 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 .footer {
-  font-family: 'Raleway', sans-serif;
+  
   background: #2E2F42;
 }
 
